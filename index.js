@@ -17,7 +17,7 @@ const users=[
 
 ]
 
-app.get('/user',(req,res)=>{
+app.get('/',(req,res)=>{
     try{
         const username=req.query.users;
 
